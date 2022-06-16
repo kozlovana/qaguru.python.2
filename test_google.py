@@ -6,8 +6,8 @@ from selene import be, have
 
 @pytest.fixture(scope='session', autouse=True)
 def config_browser():
-    browser.window_width = 500
-    browser.window_height = 500
+    browser.window_width = 600
+    browser.window_height = 600
 
 
 def test_first():
